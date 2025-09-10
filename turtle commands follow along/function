@@ -1,0 +1,26 @@
+import turtle
+from turtle import *
+t = Turtle()
+
+#turtle.done
+#define the function name it then pass arguments/parameters
+""" def add(x,y):
+    print(x+y)
+add(15+5)
+add(7,8) """
+
+""" def square(x):
+    t.forward(x)
+    t.left(90)
+    t.forward(x)
+    t.left(90)
+    t.forward(x)
+    t.left(90)
+    t.forward(x)
+    t.left(90)
+square(200)  """
+
+for i in range(4):
+    #do draw a line
+    print(i)
+
