@@ -44,11 +44,23 @@ right() """
     t.left(90)
     t.forward(125)
 rectangle(200) """
-def equal(x):
+""" def equal(x):
     t.forward(90)
     t.left(120)
     t.forward(90)
     t.left(120)
     t.forward(90)
-equal(50) 
+equal(50)  """
+
+""" for i in range(4):
+    t.forward(100)
+    t.left(90) """
+#answers for loop.md
+
+sidelength = 100
+rotate = 90
+def square(x,y):
+    for i in range(4):
+        t.forward(x)
+        t.left(y)
 turtle.done
