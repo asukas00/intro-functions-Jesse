@@ -1,13 +1,13 @@
 import turtle
 from turtle import *
 t = Turtle()
-t.speed(10)
+t.speed(100)
 
 """ def message(input):
     print(input)
 message("Hello Class") """
 
-t.shape('turtle')
+""" t.shape('turtle') """
 
 """ def square(x):
     t.forward(x)
@@ -72,10 +72,6 @@ def tri():
         size += 5
 tri() """
 
-def square(x):
-    for i in range(4):
-        t.forward(x)
-        t.left(90)
 
 """ def doubleSquares(iRange):
     length = 25
@@ -90,11 +86,35 @@ def addsquares(iRange):
         square(length, 90)
         length += 25 
 addsquares(5)   """
+""" def square(x):
+    for i in range(4):
+        t.forward(x)
+        t.left(90) """
 
-for square in range(60):
-    size = 40
-    square(size)
-    size += 10
+""" def square(x):
+    for i in range(4):
+        t.forward(x)
+        t.right(90)
+def manySquares(x):
+    y = 10
+    for i in range(x):
+        square(y)
+        y = y + 5
+        t.right(5)
+manySquares(60) """
+
+""" def star(x):
+    for i in range(5):
+        t.forward(x)
+        t.right(144)
+def manystar(x):
+    y = 20
+    for i in range(x):
+        star(y)
+        y += 5
+        t.right(10)
+manystar(60)
+ """
 
 
 

@@ -20,7 +20,25 @@ add(7,8) """
     t.left(90)
 square(200)  """
 
-for i in range(4):
+""" for i in range(4):
     #do draw a line
     print(i)
+ """
 
+#parenthesis is the function
+# Strings characters letters
+#Input produces strings
+x = "Olivia"
+""" print(x)
+y = input("what's your name")
+print(y) """
+def add(x,y):
+    #return is output
+    return(x + y)
+""" bill = add(5,10)
+print(bill) """
+
+#integers or numbers
+z = 15
+bill = input("whats the bill amount")
+print (add(15, int(bill)))
