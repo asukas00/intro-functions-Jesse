@@ -32,13 +32,14 @@ x = "Olivia"
 """ print(x)
 y = input("what's your name")
 print(y) """
-def add(x,y):
+""" def add(x,y):
     #return is output
-    return(x + y)
+    return(x + y) """
 """ bill = add(5,10)
 print(bill) """
 
 #integers or numbers
-z = 15
+""" z = 15
 bill = input("whats the bill amount")
-print (add(15, int(bill)))
+print (add(15, int(bill))) """
+#F strings 
