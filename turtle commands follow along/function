@@ -29,9 +29,9 @@ square(200)  """
 # Strings characters letters
 #Input produces strings
 x = "Olivia"
-""" print(x)
+print(x)
 y = input("what's your name")
-print(y) """
+print(y)
 """ def add(x,y):
     #return is output
     return(x + y) """
