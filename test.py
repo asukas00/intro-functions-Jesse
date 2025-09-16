@@ -1,7 +1,7 @@
 import turtle
 from turtle import *
 t = Turtle()
-t.speed(100)
+t.speed(30)
 
 """ def message(input):
     print(input)
@@ -103,7 +103,7 @@ def manySquares(x):
         t.right(5)
 manySquares(60) """
 
-""" def star(x):
+def star(x):
     for i in range(5):
         t.forward(x)
         t.right(144)
@@ -114,7 +114,11 @@ def manystar(x):
         y += 5
         t.right(10)
 manystar(60)
- """
+
+
+
+
+
 
 
 
